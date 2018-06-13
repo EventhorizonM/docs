@@ -60,7 +60,7 @@ result = pattern << amount
   
 -   `result3` is -32768 (1000 0000 0000 0000).  
   
--   `result4` is 384 (0000 0001 1000 0000).  
+-   `result4` is 0 (shifts are not circular, bits shifted beyond the range of the result data type are discarded).  
   
 -   `result5` is 0 (shifted 15 places to the left).  
   
